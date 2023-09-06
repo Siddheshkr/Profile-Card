@@ -5,6 +5,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 body {
   height: 100vh;
@@ -128,56 +135,22 @@ body {
 }
 
 #socoal-links #twtlink:hover {
-  background: #56ccf2; 
-  background: -webkit-linear-gradient(
-    to right,
-    #2f80ed,
-    #56ccf2
-  ); 
-  background: linear-gradient(
-    to right,
-    #2f80ed,
-    #56ccf2
-  ); 
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to right, #2f80ed, #56ccf2);
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
 }
 #socoal-links #gitlink:hover {
-  background: #20002c; 
-  background: -webkit-linear-gradient(
-    to right,
-    #cbb4d4,
-    #20002c
-  ); 
-  background: linear-gradient(
-    to right,
-    #cbb4d4,
-    #20002c
-  );
+  background: #20002c;
+  background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);
+  background: linear-gradient(to right, #cbb4d4, #20002c);
 }
 #socoal-links #linkdlink:hover {
-  background: #000046; 
-  background: -webkit-linear-gradient(
-    to right,
-    #1cb5e0,
-    #000046
-  ); 
-  background: linear-gradient(
-    to right,
-    #1cb5e0,
-    #000046
-  ); 
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #1cb5e0, #000046);
+  background: linear-gradient(to right, #1cb5e0, #000046);
 }
 #socoal-links #instalink:hover {
-  background: #3a1c71; 
-  background: -webkit-linear-gradient(
-    to right,
-    #ffaf7b,
-    #d76d77,
-    #3a1c71
-  );
-  background: linear-gradient(
-    to right,
-    #ffaf7b,
-    #d76d77,
-    #3a1c71
-  ); 
+  background: #3a1c71;
+  background: -webkit-linear-gradient(to right, #ffaf7b, #d76d77, #3a1c71);
+  background: linear-gradient(to right, #ffaf7b, #d76d77, #3a1c71);
 }
